@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-rcon",
   "description": "通过Rcon协议在游戏服务器执行命令",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,6 +9,11 @@
     "dist"
   ],
   "license": "MIT",
+  "homepage": "https://github.com/windbullet/koishi-plugin-rcon",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windbullet/koishi-plugin-rcon.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
@@ -16,6 +21,9 @@
   ],
   "peerDependencies": {
     "koishi": "^4.16.4"
+  },
+  "devDependencies": {
+    "@koishijs/plugin-notifier": "^1.1.1"
   },
   "dependencies": {
     "rcon-client": "^4.2.4"
